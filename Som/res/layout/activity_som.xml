@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center"
+	android:padding="30dip"
+	android:orientation="vertical" >
+	<ImageView 
+	    android:src="@drawable/ic_launcher"
+	    android:layout_width="wrap_content"
+	    android:layout_height="fill_parent"/>
+	<LinearLayout
+		android:id="@+id/linearLayout2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal" 
+		android:gravity="center">
+	 
+		<ImageButton
+			android:id="@+id/bttocar"
+			android:src="@android:drawable/ic_media_play"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+ 
+		<ImageButton
+			android:id="@+id/btpausar"
+			android:src="@android:drawable/ic_media_pause"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	
+		<ImageButton 
+	    	android:id="@+id/btstop"
+	    	android:src="@android:drawable/btn_default"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"/>
+ 
+	</LinearLayout>
+ 
+</LinearLayout>
